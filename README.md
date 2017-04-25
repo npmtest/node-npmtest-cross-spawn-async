@@ -1,6 +1,6 @@
 # npmtest-cross-spawn-async
 
-#### test coverage for  [cross-spawn-async (v2.2.5)](https://github.com/IndigoUnited/node-cross-spawn-async#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cross-spawn-async.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cross-spawn-async) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cross-spawn-async.svg)](https://travis-ci.org/npmtest/node-npmtest-cross-spawn-async)
+#### basic test coverage for  [cross-spawn-async (v2.2.5)](https://github.com/IndigoUnited/node-cross-spawn-async#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cross-spawn-async.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cross-spawn-async) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cross-spawn-async.svg)](https://travis-ci.org/npmtest/node-npmtest-cross-spawn-async)
 
 #### Cross platform child_process#spawn
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-cross-spawn-async/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-cross-spawn-async/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cross-spawn-async/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cross-spawn-async/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cross-spawn-async/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cross-spawn-async/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-cross-spawn-async/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-cross-spawn-async/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cross-spawn-async/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cross-spawn-async/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-cross-spawn-async/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cross-spawn-async/build/coverage.html/index.html)
 
@@ -94,7 +94,8 @@
         "lint": "eslint '{*.js,lib/**/*.js,test/**/*.js}'",
         "test": "node test/prepare && mocha --bail test/test"
     },
-    "version": "2.2.5"
+    "version": "2.2.5",
+    "bin": {}
 }
 ```
 

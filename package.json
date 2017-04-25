@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [cross-spawn-async (v2.2.5)](https://github.com/IndigoUnited/node-cross-spawn-async#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cross-spawn-async.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cross-spawn-async) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cross-spawn-async.svg)](https://travis-ci.org/npmtest/node-npmtest-cross-spawn-async)",
+    "description": "#### basic test coverage for  [cross-spawn-async (v2.2.5)](https://github.com/IndigoUnited/node-cross-spawn-async#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cross-spawn-async.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cross-spawn-async) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cross-spawn-async.svg)](https://travis-ci.org/npmtest/node-npmtest-cross-spawn-async)",
     "devDependencies": {
         "cross-spawn-async": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
